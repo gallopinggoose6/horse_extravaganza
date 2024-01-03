@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "horse_extravaganza:block/balloon"
+	}
+}

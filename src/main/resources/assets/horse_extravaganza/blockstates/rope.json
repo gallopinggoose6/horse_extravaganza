@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=x": {
+			"model": "horse_extravaganza:block/rope",
+			"x": 90,
+			"y": 90
+		},
+		"axis=y": {
+			"model": "horse_extravaganza:block/rope"
+		},
+		"axis=z": {
+			"model": "horse_extravaganza:block/rope",
+			"x": 90
+		}
+	}
+}

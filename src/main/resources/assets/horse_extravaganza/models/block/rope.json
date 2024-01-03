@@ -1,0 +1,33 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"all": "horse_extravaganza:block/rope",
+		"particle": "horse_extravaganza:block/rope"
+	},
+	"display": {
+		"head": {
+			"rotation": [ -60, 0, 0 ],
+			"translation": [ 0, 5, -9],
+			"scale":[ 1, 1, 1]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		}
+	},
+	"elements": [
+		{
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 16, 9 ],
+			"faces": {
+				"up":    { "uv": [ 8, 0, 10, 2 ], "texture": "#all", "cullface": "up" },
+				"down":  { "uv": [ 8, 0, 10, 2 ], "texture": "#all", "cullface": "down" },
+				"north": { "uv": [ 0, 0, 2, 16 ], "texture": "#all" },
+				"east":  { "uv": [ 2, 0, 4, 16 ], "texture": "#all" },
+				"south": { "uv": [ 4, 0, 6, 16 ], "texture": "#all" },
+				"west":  { "uv": [ 6, 0, 8, 16 ], "texture": "#all" }
+			}
+        	}
+	]
+}
