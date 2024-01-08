@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"key": {
+		"#": {
+			"item": "minecraft:string"
+		}
+	},
+	"pattern": [
+		"#",
+		"#",
+		"#"
+	],
+	"result": {
+		"item": "horse_extravaganza:rope"
+	}
+}

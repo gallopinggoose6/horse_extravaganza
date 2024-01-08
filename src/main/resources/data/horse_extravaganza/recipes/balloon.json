@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"key": {
+		"#": {
+			"item": "minecraft:red_wool"
+		},
+		"X": {
+			"item": "minecraft:golden_apple"
+		}
+	},
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"result": {
+		"item": "horse_extravaganza:balloon"
+	}
+}
